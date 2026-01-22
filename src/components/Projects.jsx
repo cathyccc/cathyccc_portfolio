@@ -3,7 +3,7 @@ import TravelMockImg from '../assets/travel-mockapp-screenshot.png'
 
 export default function Projects() {
   return (
-    <section className="container mx-auto px-8 md:px-2 lg:max-w-7xl md:max-w-3xl lg:px-30">
+    <section id="projects" className="container mx-auto px-8 md:px-2 lg:max-w-7xl md:max-w-3xl lg:px-30">
       <h1 className="text-3xl font-bold mb-3 lg:">Featured Projects</h1>
       <ProjectCard
         img={TravelMockImg}

@@ -6,7 +6,7 @@ export default function Header() {
           Cathy Chan
         </div>
         <div className="flex gap-6">
-          <a href="#" className="relative px-3 pb-1 text-sm font-bold group">
+          <a href="#projects" className="relative px-3 pb-1 text-sm font-bold group">
             Projects
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"/>
           </a>
@@ -14,7 +14,7 @@ export default function Header() {
             About
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"/>
           </a>
-          <a href="#" className="relative px-3 pb-1 text-sm font-bold group">
+          <a href="#contact" className="relative px-3 pb-1 text-sm font-bold group">
             Contact
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"/>
           </a>
