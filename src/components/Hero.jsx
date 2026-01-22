@@ -6,11 +6,11 @@ export default function Hero() {
       <div className="flex flex-col-reverse md:flex-row items-center gap-8">
         <div className="w-full md:w-1/2 lg:flex-1 p-7 md:pl-20">
           <h1 className="text-5xl md:text-4xl lg:text-5xl font-bold sm:text-6xl mb-4 leading-normal">
-            <span class="bg-[#e1bee7] px-2 py-1">
+            <span className="bg-purple-300 px-2 py-1">
               Engineering
             </span>
             &nbsp;with a&nbsp;
-            <span class="bg-[#e1bee7] px-2 py-1">
+            <span className="bg-purple-300 px-2 py-1">
               <span className="italic">Designer's Eye</span>
             </span>
           </h1>
