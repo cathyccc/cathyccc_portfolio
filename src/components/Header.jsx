@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <nav className="p-6 shadow-md h-16">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center max-w-7xl">
         <div className="text-2l font-bold">
           Cathy Chan
         </div>
