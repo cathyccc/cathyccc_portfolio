@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard"
-import TravelMockImg from '../assets/travel-mockapp-screenshot.png'
+import TravelMockImg from '../assets/travel-mockapp-screenshot.jpg'
+import RecipeMockImg from '../assets/recipe-mockapp-screenshot.png'
 
 export default function Projects() {
   return (
@@ -7,17 +8,19 @@ export default function Projects() {
       <h1 className="text-3xl font-bold mb-3 lg:">Featured Projects</h1>
       <ProjectCard
         img={TravelMockImg}
+        gitLink={"https://github.com/cathyccc/vantage-travel-deal-tracker"}
         alt="travel-app-screenshot"
         title="Travel Deal Finder"
-        desc="This React app was made with Next.js, Javascript, Tailwind CSS, React. It includes the use of xxx,xxx,xxx."
-        techUsed="React and xxx API"
+        desc="This React app was made with Next.js, Supabase, Tailwind CSS. It includes the use of Amadeus Flight Offers Search API to track global airfares."
+        techUsed="React and Amadeus API"
         />
       <ProjectCard
-        img={TravelMockImg}
-        alt="travel-app-screenshot"
-        title="Travel Deal Finder"
-        desc="This React app was made with Next.js, Javascript, Tailwind CSS, React. It includes the use of xxx,xxx,xxx."
-        techUsed="React and xxx API"
+        img={RecipeMockImg}
+        gitLink={"https://github.com/cathyccc/chef-gemini"}
+        alt="gemini-app-screenshot"
+        title="Gemini AI Recipe Generator"
+        desc="This React app was made with Node.js and Tailwind CSS. It includes the use of Gemini 3.0 Flash to generate recipes based on ingredient inputs."
+        techUsed="React and Generative AI Integration (Gemini 3.0 Flash)"
         />
     </section>
   )

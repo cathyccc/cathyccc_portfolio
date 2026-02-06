@@ -11,9 +11,9 @@ export default function ProjectCard(props) {
 
       <div className="flex w-full md:w-1/2 p-13">
       <div>
-        <h3 className="text-2xl font-bold mb-3">{props.title}</h3>
+        <h3 className="text-xl font-bold mb-3">{props.title}</h3>
         
-        <p className="text-gray-600 mb-4">
+        <p className="text-gray-600 mb-4 text-sm">
           {props.desc}
         </p>
         
@@ -22,12 +22,12 @@ export default function ProjectCard(props) {
         </p>
         
         <div className="flex gap-4">
-          <button className="bg-purple-800 text-white font-semibold text-sm px-6 py-2 rounded hover:bg-purple-900 hover:shadow-lg hover:scale-105 transition-all duration-200">
+          <a href={props.gitLink} className="bg-purple-800 text-white font-semibold text-xs px-6 py-2 rounded hover:bg-purple-900 hover:shadow-lg hover:scale-105 transition-all duration-200">
             Visit Website
-          </button>
-          <button className="border-2 border-purple-800 text-purple-800 font-semibold text-sm px-6 py-2 rounded hover:bg-purple-800 hover:text-white hover:shadow-lg hover:scale-105 transition-all duration-200">
+          </a>
+          <a href={props.gitLink} className="border-2 border-purple-800 text-purple-800 font-semibold text-xs px-6 py-2 rounded hover:bg-purple-800 hover:text-white hover:shadow-lg hover:scale-105 transition-all duration-200">
             View Code
-          </button>
+          </a>
         </div>
         </div>
       </div>
