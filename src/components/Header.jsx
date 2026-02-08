@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
+import { Link  } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -8,18 +9,18 @@ export default function Header() {
           <Link to="/">Cathy Chan</Link>
         </div>
         <div className="flex gap-6">
-          <a href="#/#projects" className="relative px-3 pb-1 text-sm font-bold group">
+          <HashLink to="/#projects" className="relative px-3 pb-1 text-sm font-bold group">
             Projects
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"/>
-          </a>
+          </HashLink>
           <Link to="/about" className="relative px-3 pb-1 text-sm font-bold group">
             About
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"/>
           </Link>
-          <a href="#/#contact" className="relative px-3 pb-1 text-sm font-bold group">
+          <HashLink to="/#contact" className="relative px-3 pb-1 text-sm font-bold group">
             Contact
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"/>
-          </a>
+          </HashLink>
         </div>
       </div>
     </nav>
