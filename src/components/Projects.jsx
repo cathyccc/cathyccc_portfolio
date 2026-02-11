@@ -18,7 +18,7 @@ export default function Projects() {
       <ProjectCard
         img={RecipeMockImg}
         gitLink={"https://github.com/cathyccc/chef-gemini"}
-        vercelLink={"https://github.com/cathyccc/chef-gemini"}
+        vercelLink={"https://chef-gemini-41pnhbhik-cathys-projects-d2ff594f.vercel.app/"}
         alt="gemini-app-screenshot"
         title="Gemini AI Recipe Generator"
         desc="This React app was made with Node.js and Tailwind CSS. It includes the use of Gemini 3.0 Flash to generate recipes based on ingredient inputs."
