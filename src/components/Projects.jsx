@@ -9,6 +9,7 @@ export default function Projects() {
       <ProjectCard
         img={TravelMockImg}
         gitLink={"https://github.com/cathyccc/vantage-travel-deal-tracker"}
+        vercelLink={"https://vantage-travel-deal-tracker.vercel.app/"}
         alt="travel-app-screenshot"
         title="Travel Deal Finder"
         desc="This React app was made with Next.js, Supabase, Tailwind CSS. It includes the use of Amadeus Flight Offers Search API to track global airfares."
@@ -17,6 +18,7 @@ export default function Projects() {
       <ProjectCard
         img={RecipeMockImg}
         gitLink={"https://github.com/cathyccc/chef-gemini"}
+        vercelLink={"https://github.com/cathyccc/chef-gemini"}
         alt="gemini-app-screenshot"
         title="Gemini AI Recipe Generator"
         desc="This React app was made with Node.js and Tailwind CSS. It includes the use of Gemini 3.0 Flash to generate recipes based on ingredient inputs."
