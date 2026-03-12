@@ -11,9 +11,9 @@ export default function Projects() {
         gitLink={"https://github.com/cathyccc/vantage-travel-deal-tracker"}
         vercelLink={"https://vantage-travel-deal-tracker.vercel.app/"}
         alt="travel-app-screenshot"
-        title="Travel Deal Finder"
-        desc="This React app was made with Next.js, Supabase, Tailwind CSS. It includes the use of Amadeus Flight Offers Search API to track global airfares."
-        techUsed="React and Amadeus API"
+        title="Travel Deal Finder (In-Progress)"
+        desc="This React app was made with Next.js, Fuse.js, Zod, Supabase, and Tailwind CSS. It includes the use of Duffel Flight Offers Search API to track global airfares."
+        techUsed="React and Duffel API"
         />
       <ProjectCard
         img={RecipeMockImg}
